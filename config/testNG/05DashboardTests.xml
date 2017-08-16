@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataTile  - Dashboard tests" verbose="4">
+
+                              <test name="C47, C48, C49, C50, C51, C52, C712, C715, C716, C717, C753, C766 Control Tests">
+                                  <classes>
+                                      <class name="eu.datatiler.tests.ControlTests"/>
+                                  </classes>
+                              </test>
+
+
+
+                                     <test name="C44, C45, C46 Check text and image widgets">
+                                         <classes>
+                                             <class name="eu.datatiler.tests.WidgetTests"/>
+                                         </classes>
+                                     </test>
+
+   </suite>
+

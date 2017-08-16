@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataTile  - Crosstab tests" verbose="4">
+
+
+    <test name="UAT-396, C713, C756, C754">
+        <classes>
+            <class name="eu.datatiler.tests.CrosstableTests"/>
+        </classes>
+    </test>
+
+</suite>

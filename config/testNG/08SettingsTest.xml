@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataTile  - Settings tests" verbose="4">
+
+
+    <test name="C714, C757, C758, C759">
+        <classes>
+            <class name="eu.datatiler.tests.SettingsTests"/>
+        </classes>
+    </test>
+
+</suite>

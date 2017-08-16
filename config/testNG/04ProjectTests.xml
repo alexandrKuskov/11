@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataTile  - Project tests" verbose="4">
+
+                   <test name="UAT-720 Saving settings exposed scales">
+                        <classes>
+                            <class name="eu.datatiler.tests.WeightSettings"/>
+                        </classes>
+                    </test>
+
+
+                        <test name="UAT-395, UAT-804, UAT-846, UAT-847, UAT-852, UAT-854">
+                            <classes>
+                                <class name="eu.datatiler.tests.ProjectTests"/>
+                            </classes>
+                        </test>
+
+</suite>

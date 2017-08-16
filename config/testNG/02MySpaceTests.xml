@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataTile - My space tests" verbose="4">
+
+            <test name="UAT-23 Check Shared with me section">
+                <classes>
+                    <class name="eu.datatiler.tests.SharedItemsTest"/>
+                </classes>
+            </test>
+
+                <test name="UAT-27 Change user name">
+                    <classes>
+                        <class name="eu.datatiler.tests.UserTests"/>
+                    </classes>
+                </test>
+
+            <test name="UAT-31, UAT-32, UAT-34, UAT-36, UAT-42, UAT-44 Folders tests">
+                                    <classes>
+                                        <class name="eu.datatiler.tests.FolderTests"/>
+                                    </classes>
+                                </test>
+
+
+
+                                                        <test name="UAT-397 Ensure link to public dashboard is copied to clipboard">
+                                                            <classes>
+                                                                <class name="eu.datatiler.tests.ClipboardTest"/>
+                                                            </classes>
+                                                        </test>
+
+                                                                       <test name="UAT-401, UAT-403 Creating project and exporting dashboard in sub-folder">
+                                                                           <classes>
+                                                                               <class name="eu.datatiler.tests.CreationTests"/>
+                                                                           </classes>
+                                                                       </test>
+
+
+
+
+
+                                                                                        <test name="UAT-402 Creating dashboard in sub-folder">
+                                                                                            <classes>
+                                                                                                <class name="eu.datatiler.tests.CreateDashboardTest"/>
+                                                                                            </classes>
+                                                                                        </test>
+
+
+    </suite>

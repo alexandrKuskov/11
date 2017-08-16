@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DataTile - Security tests" verbose="4">
+
+    <test name="UAT-393 Ensure that Viewer can't access administration page">
+        <classes>
+            <class name="eu.datatiler.tests.AccessTests"/>
+        </classes>
+    </test>
+
+</suite>
