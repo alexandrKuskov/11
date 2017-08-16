@@ -43,3 +43,5 @@ For pointing of the tests execution results to corresponding tasks in Jira it is
 -Dtest.send.status=true
 
 to the test executing launching command.
+
+ant testDataTile -Dbrowser=chrome -Dbuild.version=v.0.19.4-305 -Dbase.url=https://test.datatile.eu/
